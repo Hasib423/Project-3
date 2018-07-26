@@ -1,0 +1,63 @@
+*{margin: 0px;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	background: url(../img/bbr.jpg);
+	background-size: cover;
+}
+.container{
+	width: 560px;
+	height: 150px;
+	margin: 8% auto;
+}
+.register{
+	background-color:#5a282e;
+	padding: 15px;
+}
+h2{
+	text-align: center;
+	 padding: 20px;
+    color: white;
+    font-size: 33px;
+}
+.signin-section{
+	margin: 3px auto;
+    width: 88%;
+    height: 35px;
+    border: 1px solid black;
+    padding: 5px 22px;
+    border-radius: 7px;
+}
+.name{
+	padding: 16px 41px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-bottom: 3px;
+}
+.login-btn{
+	background-color: #18d0ae;
+	padding:11px 133px;
+	font-size:15px;
+	display:block;
+	margin: 15px auto;
+	color:white;
+	border-radius: 10px;
+	border: 1px solid orange;
+	transition: 0.4s;
+	font-weight: 700;
+}
+.login-btn:hover{
+	cursor: pointer;
+	background-color:#12e217;
+	box-shadow: 1px 2px 5px white;
+
+}
+.button{
+	background-color: #18d0ae;
+    font-size: 15px;
+    padding: 6px 10px;
+    border: 1px solid black;
+    color: white;
+    border-radius: 12px;
+
+}

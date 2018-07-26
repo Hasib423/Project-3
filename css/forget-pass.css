@@ -1,0 +1,51 @@
+*{
+	margin: 0px;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	background-color: #31f789;
+	background-size: cover;
+}
+.container{
+	width: 560px;
+	height: 150px;
+	margin: 8% auto;
+}
+.forget-pass{
+	background-color: white;
+	padding: 15px;
+}
+h2{
+	text-align: center;
+	 padding: 20px;
+    font-size: 33px;
+    color: #23e044;
+}
+p{
+	padding: 20px;
+}
+.address{
+	margin: 3px auto;
+    width: 88%;
+    height: 35px;
+    border: 1px solid black;
+    padding: 12px 30px;
+    border-radius: 7px;
+}
+.submit{
+	background-color: #23e044;
+	padding:11px 133px;
+	font-size:15px;
+	display:block;
+	margin: 15px auto;
+	color:white;
+	border-radius: 10px;
+	border: 1px solid orange;
+	transition: 0.4s;
+	font-weight: 700;
+}
+.submit:hover{
+	cursor: pointer;
+	background-color:#151715;
+	box-shadow: 1px 2px 5px #e61d1d;
+}

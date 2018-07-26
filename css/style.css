@@ -1,0 +1,66 @@
+*{
+	margin: 0px;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	background: url(../img/black.jpg);
+	background-size: cover;
+}
+.container{
+	width: 400px;
+	margin: 10% 35%;
+	height: 150px;
+}
+.login-section{
+	background-color:#4a0e17;
+	padding: 20px;
+	border-radius: 10px;
+}
+.login-section img{
+	height: 85px;
+	width: 85px;
+	display: block;
+	margin: 0 auto;
+}
+.login-section h3{
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-weight: 400;
+	font-size: 26px;
+}
+.form-control{
+	width: 88%;
+	height:35px;
+	display: block;
+	margin:0 auto;
+	padding:10px;
+	border-radius:10px;
+	border:1px solid black;
+	margin-bottom:5px;
+}
+.login-btn{
+	background-color:#18d0ae;
+	padding:11px 151px;
+	font-size:15px;
+	display:block;
+	margin: 5px auto;
+	color:white;
+	border-radius: 10px;
+	border: 1px solid orange;
+	transition: 0.4s;
+	font-weight: 700;
+}
+.login-btn:hover{
+	cursor: pointer;
+	background-color:#12e217;
+	box-shadow: 1px 2px 5px white;
+
+}
+.forget-pass{
+	color: white;
+
+}
+.register-here{
+	color: white;
+}
